@@ -120,3 +120,16 @@ hr {
 div .col-8 {
   font-size: 14px;
 }
+
+p#copyright {
+  text-align: center;
+}
+p#copyright a {
+  color: #512da8;
+  transition: all 100ms linear;
+}
+
+p#copyright a:hover {
+  color: #ffc107;
+  cursor: pointer;
+}
