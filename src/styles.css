@@ -1,0 +1,122 @@
+.container-sm {
+  margin: 15px auto;
+  max-width: 35%;
+  font-family: "Quicksand", sans-serif;
+}
+
+div .card {
+  background-image: linear-gradient(to top, #512da8 10%, #673ab7 100%);
+  border: solid 3px #512da8;
+  color: #fff;
+}
+
+div .card-body {
+  margin: 18px;
+}
+
+div .search {
+  text-align: right;
+  position: relative;
+  top: -50px;
+}
+
+#search-field {
+  font-size: 16px;
+  color: #512da8;
+  border-radius: 5px;
+  border-color: #673ab7;
+  border-style: solid;
+  padding: 3px;
+}
+
+#search-button {
+  color: #fff;
+  background-color: #673ab7;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  position: relative;
+  top: 10px;
+  transition: all 200ms linear;
+}
+
+#search-button:hover,
+#current-location:hover {
+  background-color: #fff;
+  border: 1px solid #512da8;
+  color: #512da8;
+  cursor: pointer;
+}
+
+#current-location {
+  color: #fff;
+  background-color: #673ab7;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  position: relative;
+  top: -18px;
+  right: 116px;
+  transition: all 200ms linear;
+}
+
+div .locationDay h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+div .locationDay h3 {
+  font-size: 18px;
+  position: relative;
+  top: -70px;
+  left: 3px;
+}
+
+div .weatherToday {
+  text-align: center;
+}
+
+div .weatherToday h1 {
+  font-size: 95px;
+  line-height: 125px;
+}
+
+#weather-icon {
+  font-size: 115px;
+}
+
+#temperature {
+  position: relative;
+  right: -10px;
+}
+
+#degree-unit {
+  color: #fff;
+  font-size: 22px;
+  position: relative;
+  top: -50px;
+}
+
+a {
+  color: #ffc107;
+}
+
+a:hover {
+  color: #fff;
+}
+
+div .row-cols-3 {
+  margin: 20px auto;
+  position: relative;
+  top: -10px;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+
+hr {
+  background-color: #ffc107;
+}
+
+div .col-8 {
+  font-size: 14px;
+}
